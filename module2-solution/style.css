@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin:5px;
+	font-family: Helvetica;
+}
+h1 {
+	text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+    margin-top:  50px;
+}
+.section {
+	background-color: #0080ff;
+	border:1px solid black;
+	position: relative;
+	margin: 5px;
+	height: 150px;
+	color: white;
+	font-size: 16px;
+}
+#pythagoras, #plato, #diogenes {
+	background-color: #e6e6ff;
+	width: 145px;
+	margin: 0px;
+	border: 1px solid black;
+	text-align: center;
+	float:right;
+	position: relative;
+	top:-1px; right:-1px;
+	color: black;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#plato {
+	background-color: #ffe6e6;
+}
+
+#diogenes {
+	background-color: #ccffdc;
+}
+
+p {
+	clear: right;
+	padding: 5px;
+}
+
+.row {
+	width: 100%;
+}
+
+@media (min-width:992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 33.33%;
+  }
+  .col-lg-3 {
+    width: 33.33%;
+  }
+  
+}
+/********** Tablet version**********/
+@media (min-width:768px) and (max-width:991px){
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+  
+}
