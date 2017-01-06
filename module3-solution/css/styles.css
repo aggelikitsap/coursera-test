@@ -42,7 +42,6 @@ position: static;
   margin-top: -50px;
   }
 #nav-list {
-text-align: center;
 margin-top: 10px;
     color:  #000000;
     font-size: 1.5em;
@@ -59,7 +58,6 @@ margin-top: 10px;
 
 #nav-list a{
   color: blue;
-text-align: center;
 }
 
 #nav-list a:hover {
